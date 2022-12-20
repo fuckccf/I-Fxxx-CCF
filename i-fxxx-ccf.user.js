@@ -3,7 +3,7 @@
 // @namespace    https://€€£.fucksc.cf/
 // @version      0.1
 // @description  将中国计算机学会官网所有的 CCF 改成 €€£
-// @author       €€£
+// @author       dsy4567
 // @match        *://*.ccf.org.cn/*
 // @match        *://*.noi.cn/*
 // @match        *://*.cspro.org/*
