@@ -30,7 +30,7 @@ let kwd={
     "Professional": "₱rofessional",
     "China": "€hina",
     "Computer": "€ollecting-money",
-    "Federation": "£ederation"
+    "Federation": "£ederation",
 }
 
 Object.keys(kwd).forEach(k=>{
