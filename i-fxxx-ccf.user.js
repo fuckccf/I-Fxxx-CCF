@@ -3,7 +3,7 @@
 // @namespace    https://€€£.fucksc.cf/
 // @version      0.1
 // @description  将中国计算机学会官网所有的 CCF 改成 €€£
-// @author       dsy4567
+// @author       €€£
 // @match        *://*.ccf.org.cn/*
 // @match        *://*.noi.cn/*
 // @match        *://*.cspro.org/*
@@ -16,8 +16,14 @@
 
 (function() {
 let kwd={
+    "GESP": "₲E$₽",
+    "Grade": "₲rade",
+    "Programming": "₽rogramming",
+    "CCSP": "€€$₱",
     "CSP": "€$₱",
+    "CCCF": "€€€£",
     "CCF": "€€£",
+    "CNCC": "€₦€€",
     "中国计算机学会": "中国收钱协会",
     "Certified": "€ertified",
     "Software": "$oftware",
