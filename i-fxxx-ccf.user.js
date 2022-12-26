@@ -2,7 +2,7 @@
 // @name         I-Fxxx-CCF
 // @namespace    https://€€£.fucksc.cf/
 // @version      0.1
-// @description  将中国计算机学会官网所有的 CCF 改成 €€£
+// @description  让中国计算机学会官网充满钱的味道
 // @author       €€£
 // @match        *://*.ccf.org.cn/*
 // @match        *://*.noi.cn/*
