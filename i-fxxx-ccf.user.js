@@ -2,7 +2,7 @@
 // @name         I-Fxxx-CCF
 // @namespace    https://€€£.fucksc.cf/
 // @version      0.1
-// @description  让中国计算机学会官网充满钱的味道
+// @description  将中国计算机学会官网所有的 CCF 改成 €€£
 // @author       €€£
 // @match        *://*.ccf.org.cn/*
 // @match        *://*.noi.cn/*
@@ -30,7 +30,7 @@ let kwd={
     "Professional": "₱rofessional",
     "China": "€hina",
     "Computer": "€ollecting-money",
-    "Federation": "£ederation",
+    "Federation": "£ederation"
 }
 
 Object.keys(kwd).forEach(k=>{
@@ -40,7 +40,14 @@ Object.keys(kwd).forEach(k=>{
     })
     document.title = document.title.replaceAll(k,kwd[k])
 })
-
+Object.values(kwd).forEach(k=>{
+    document.querySelectorAll("*[href], *[src]")?.forEach((el)=>{
+        if (el.getAttribute("href")?.includes(k))
+            el.setAttribute("href", el.getAttribute("href".replaceAll(k,Object.keys(kwd.valueOf(k))[0])))
+        if (el.getAttribute("src")?.includes(k))
+            el.setAttribute("src", el.getAttribute("src".replaceAll(k,Object.keys(kwd.valueOf(k))[0])))
+    })
+})
 document.querySelector(".header .logo")?.remove()
 let img = document.createElement("img")
 img.src = "https://avatars.githubusercontent.com/u/91953449";
